@@ -1,6 +1,6 @@
-# Salesforce DX Project: Next Steps
+# Novos chats para suporte RA
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Essa é uma aplicação SalesForce DX, que utiliza linguagens web para gerar modelos LWC.
 
 ## How Do You Plan to Deploy Your Changes?
 
