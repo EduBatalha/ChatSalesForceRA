@@ -1,0 +1,63 @@
+
+
+.container {
+    width: 375px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Outfit;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header{
+    display: flex;
+    background-image: linear-gradient( to right, #005626, #A6C64F );
+    color: white;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 170px;
+    margin-bottom: -110px;
+}
+
+.logoRA {
+    margin-left: 20px;
+}
+
+.windowOption- {
+    font-weight: bolder;
+    margin-left: 160px;
+}
+
+.windowOptionX {
+    font-weight: bolder;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.content {
+    padding: 10px;
+    color: #535353;
+    margin-bottom: 30px;
+}
+
+.button {
+    width: 220px;
+    height: 37px;
+    background-color: #005626;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 6px;
+    cursor: pointer;
+    border-radius: 14px;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.propaganda {
+    width: 228px;
+}
