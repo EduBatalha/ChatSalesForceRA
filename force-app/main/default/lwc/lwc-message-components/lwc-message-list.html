@@ -1,0 +1,9 @@
+<template>
+    <ul class="message-list">
+        <template for:each={reversedMessages} for:item="message">
+            <li key={message.text} class={message.isUserMessage ? 'user-message' : 'bot-message'}>
+                {message.text}
+            </li>
+        </template>
+    </ul>
+</template>

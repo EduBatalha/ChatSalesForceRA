@@ -1,0 +1,6 @@
+<template>
+    <div class="message-input">
+        <input type="text" value={value} onchange={handleChange} onkeypress={handleKeyPress} disabled={disabled}>
+        <button onclick={handleSendMessage} disabled={disabled}>Enviar</button>
+    </div>
+</template>
