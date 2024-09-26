@@ -1,7 +1,7 @@
 <template>
     <ul class="message-list">
-        <template for:each={reversedMessages} for:item="message">
-            <li key={message.text} class={message.isUserMessage ? 'user-message' : 'bot-message'}>
+        <template for:each={reversedMessages} for:item="message" for:index="index">
+            <li key={message.timestamp} class={message.className}>
                 {message.text}
             </li>
         </template>

@@ -1,9 +1,12 @@
 import { LightningElement, api } from 'lwc';
 
-export default class LwcMessageList extends LightningElement {
-    @api messages = []; // Array de objetos { text, isUserMessage }
+export default class MessageList extends LightningElement {
+    @api reversedMessages;
 
-    get reversedMessages() {
-        return [...this.messages].reverse(); 
+    get formattedMessages() {
+        return this.reversedMessages.map(message => ({
+            ...message,
+            className: message.isUserMessage ? 'user-message' : 'bot-message'
+        }));
     }
 }
